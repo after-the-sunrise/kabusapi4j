@@ -15,11 +15,27 @@
 
 ### アーティファクト定義
 ```xml
-<dependency>
-    <groupId>com.after_sunrise.api</groupId>
-    <artifactId>kabusapi4j-core</artifactId>
-    <version>${latest}-SNAPSHOT</version>
-</dependency>
+<repositories>
+    <repository>
+        <id>sonatype-snapshot</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+```
+```xml
+<dependencies>
+    <dependency>
+        <groupId>com.after_sunrise.api</groupId>
+        <artifactId>kabusapi4j-core</artifactId>
+        <version>${latest}-SNAPSHOT</version>
+    </dependency>
+</dependencies>
 ```
 
 ### サンプル
