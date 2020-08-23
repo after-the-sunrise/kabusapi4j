@@ -18,7 +18,7 @@
 <dependency>
     <groupId>com.after_sunrise.api</groupId>
     <artifactId>kabusapi4j-core</artifactId>
-    <version>${latest}</version>
+    <version>${latest}-SNAPSHOT</version>
 </dependency>
 ```
 
