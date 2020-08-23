@@ -1,0 +1,22 @@
+# OS / Runtime
+/**/.DS_Store
+/**/Thumbs.db
+/**/*.swp
+
+# IDE (Intellij IDEA)
+*.iml
+.idea
+out
+
+# IDE (Eclipse)
+.classpath
+.project
+.settings
+bin
+
+# Maven
+target
+
+# Logs
+/**/logs/*.log
+/**/logs/*.gz

@@ -1,0 +1,23 @@
+{
+  "Password": "xxxxxx",
+  "Symbol": "3997",
+  "Exchange": 1,
+  "SecurityType": 1,
+  "Side": "2",
+  "CashMargin": 1,
+  "MarginTradeType": 1,
+  "DelivType": 2,
+  "FundType": "AA",
+  "AccountType": 2,
+  "Qty": 100,
+  "ClosePositionOrder": null,
+  "ClosePositions": [
+    {
+      "HoldID": "20200715E02N04738464",
+      "Qty": 100
+    }
+  ],
+  "Price": 2000,
+  "ExpireDay": 20200716,
+  "FrontOrderType": 20
+}

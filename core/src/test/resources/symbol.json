@@ -1,0 +1,19 @@
+{
+  "Symbol": "9433",
+  "SymbolName": "ＫＤＤＩ",
+  "DisplayName": "ＫＤＤＩ",
+  "Exchange": 1,
+  "ExchangeName": "東証１部",
+  "BisCategory": "5250",
+  "TotalMarketValue": 7654484465100,
+  "TotalStocks": 4484,
+  "TradingUnit": 100,
+  "FiscalYearEndBasic": 20210331,
+  "PriceRangeGroup": "10003",
+  "KCMarginBuy": true,
+  "KCMarginSell": true,
+  "MarginBuy": true,
+  "MarginSell": true,
+  "UpperLimit": 4041,
+  "LowerLimit": 2641
+}

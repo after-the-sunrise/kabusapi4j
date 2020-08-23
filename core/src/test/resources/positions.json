@@ -1,0 +1,24 @@
+[
+  {
+    "ExecutionID": "20200715E02N04738464",
+    "AccountType": 4,
+    "Symbol": "8306",
+    "SymbolName": "三菱ＵＦＪフィナンシャル・グループ",
+    "Exchange": 1,
+    "ExchangeName": "東証１部",
+    "ExecutionDay": 20200702,
+    "Price": 704,
+    "LeavesQty": 500,
+    "HoldQty": 0,
+    "Side": "1",
+    "Expenses": 0,
+    "Commission": 1620,
+    "CommissionTax": 162,
+    "ExpireDay": 20201229,
+    "MarginTradeType": 1,
+    "CurrentPrice": 414.5,
+    "Valuation": 207250,
+    "ProfitLoss": 144750,
+    "ProfitLossRate": 41.12215909090909
+  }
+]
