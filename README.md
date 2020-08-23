@@ -1,7 +1,7 @@
 # kabusapi4j
 [![Build Status][travis-icon]][travis-page]
 
-*kabusapi4j*は[auカブコム証券][kabu-home]が提供する[kabuステーションAPI][kabu-portal]のJavaラッパーライブラリです。
+*kabusapi4j*は、[auカブコム証券][kabu-home]が提供する[kabuステーションAPI][kabu-portal]に対する、非公式のJavaラッパーライブラリです。
 
 ## 公式レファレンス
 * [ポータルサイト][kabu-portal]
