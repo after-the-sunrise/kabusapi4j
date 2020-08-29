@@ -7,13 +7,11 @@
 * [ポータルサイト][kabu-portal]
 * [GitHub][kabu-github]
 
-## 使用方法
-
-### 実行環境
+## 実行環境
 * Java Development Kit 11
 * Apache Maven / Gradle Build Tool
 
-### アーティファクト定義
+## アーティファクト定義
 ```xml
 <repositories>
     <repository>
@@ -38,7 +36,7 @@
 </dependencies>
 ```
 
-### サンプル
+## サンプル
 ```java
 public class K4jSample {
 
@@ -101,11 +99,14 @@ public class K4jSample {
 
 ## 規約・免責事項
 * このライブラリの利用者は同梱の[LICENSE][license]および規約・免責事項に同意したものとみなします。
-* 過失・不具合などの有無に関わらず、利用者の自己責任にてこのライブラリを利用するものとします。
 * [APIサービス提供者][kabu-home]の利用規約も併せて遵守してください。
+  * 第三者の作成したプログラム等の利用は禁止されています。
+  * このライブラリは参照実装とし、実際にAPIを使用される場合は各自にてライブラリを再実装してください。
+* 過失・不具合などの有無に関わらず、利用者の自己責任にてこのライブラリを参照するものとします。
 
 ## その他
 * ライブラリ作者によるサポートや問い合わせ対応等は行っていません。
+* ライブラリは無償で公開しています。情報商材および有償製品・サービスにはご注意ください。
 * APIの用法用量を守り、清く正しいAPIトレーディング生活をおくりましょう。
 
 [travis-page]:https://travis-ci.org/after-the-sunrise/kabusapi4j
