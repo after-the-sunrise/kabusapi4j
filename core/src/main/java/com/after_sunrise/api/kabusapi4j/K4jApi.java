@@ -207,15 +207,21 @@ public final class K4jApi {
 
     <T> T validate(HttpRequest request, HttpResponse<String> response, Type type) throws K4jRestException {
 
+        String body = response.body();
+
+        if (logger.isDebugEnabled()) {
+            logger.debug("{} -> {} - {}", request, type, body);
+        }
+
         if (HTTP_STATUS_OK != response.statusCode()) {
 
-            K4jRestFailure failure = gson.fromJson(response.body(), K4jRestFailure.class);
+            K4jRestFailure failure = gson.fromJson(body, K4jRestFailure.class);
 
             throw new K4jRestException(request.uri(), response.statusCode(), response.body(), failure);
 
         }
 
-        return gson.fromJson(response.body(), type);
+        return gson.fromJson(body, type);
 
     }
 
