@@ -20,7 +20,7 @@ public enum K4jConfig {
 
     PROXY(null),
 
-    REST_URL("http://localhost"),
+    REST_URL("http://localhost:18080"),
 
     PUSH_URL("ws://localhost:18080"),
 
