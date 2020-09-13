@@ -486,7 +486,7 @@ public final class K4jApi {
 
                 session.socket = webSocket;
 
-                logger.debug("Socket open : {}", session.id);
+                logger.info("Socket open : {}", session.id);
 
                 if (listener instanceof K4jConnectionListener) {
                     ((K4jConnectionListener) listener).onOpen(session);
@@ -501,7 +501,7 @@ public final class K4jApi {
 
                 session.socket = webSocket;
 
-                logger.debug("Socket closed : {} - {} - {}", session.id, statusCode, reason);
+                logger.info("Socket closed : {} - {} - {}", session.id, statusCode, reason);
 
                 if (listener instanceof K4jConnectionListener) {
                     ((K4jConnectionListener) listener).onClose(session, statusCode, reason);
@@ -561,7 +561,9 @@ public final class K4jApi {
 
                 session.socket = webSocket;
 
-                logger.trace("Socket text : {} - {} - {}", session.id, last, data);
+                if (logger.isDebugEnabled()) {
+                    logger.debug("Socket text : {} - {} - {}", session.id, last, data);
+                }
 
                 if (listener instanceof K4jMessageListener) {
 
